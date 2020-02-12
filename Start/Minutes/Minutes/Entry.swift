@@ -2,8 +2,8 @@ import Foundation
 
 class Entry: Codable
 {
-    var title:   String = "Test"
-    var content: String = "iOS application"
+    var title:   String = "Hello"
+    var content: String = "Tester!!!"
     
     var id: String = UUID().uuidString
     
