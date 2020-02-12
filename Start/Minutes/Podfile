@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+def appcenterlibs
+    pod 'AppCenter'
+    pod 'AppCenter/Analytics'
+    pod 'AppCenter/Crashes'
+    pod 'AppCenter/Distribute'
+    pod 'AppCenter/Push'
+end
+
+target 'Minutes' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Minutes
+  appcenterlibs
+
+end
